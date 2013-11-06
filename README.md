@@ -23,8 +23,6 @@
   1. [Events](#events)
   1. [Modules](#modules)
   1. [jQuery](#jquery)
-  1. [ES5 Compatibility](#es5)
-  1. [Testing](#testing)
   1. [Performance](#performance)
   1. [License](#license)
 
