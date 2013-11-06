@@ -1,7 +1,4 @@
-# Airbnb JavaScript Style Guide() {
-
-*A mostly reasonable approach to JavaScript*
-
+# JavaScript Style Guide() {
 
 ## <a name='TOC'>Table of Contents</a>
 
@@ -352,6 +349,18 @@
     var isJedi = getProp('jedi');
     ```
 
+  - The popular 'params' object for ajax calls should be get and set using the subscript notation
+
+    ```javascript
+    var params = {};
+    
+    params['type'] = true;
+    
+    ...
+    
+    $.ajax{{url: driver, data: params });
+      
+    ```
     **[[⬆]](#TOC)**
 
 
